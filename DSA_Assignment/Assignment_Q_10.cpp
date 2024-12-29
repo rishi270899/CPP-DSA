@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
@@ -35,7 +35,7 @@ int main()
     {
         for (int j = 0; j < r2; j++)
         {
-            int value=0;
+            int value = 0;
             for (int k = 0; k < r2; k++)
             {
                 value += A[i][k] * B[k][j];
